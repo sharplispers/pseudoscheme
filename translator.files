@@ -1,0 +1,25 @@
+; -*- Mode: Lisp; Syntax: Common-Lisp; -*-
+
+("p-record"   ; record package
+ "p-utils"    ; tables and fluids
+ "list"       ; list utilities
+ "classes"    ; expression classes
+ "form"       ; expression stuff used by classifier
+ "classify"   ; expression classifier
+ "node"       ; budding node abstraction
+ "module"     ; signatures and structures
+ "ssig"       ; Scheme signature
+ "alpha"      ; front end
+ "rules"      ; the (syntax-rules ...) macro
+ "derive"     ; derived expression types
+ "strategy"   ; LETREC strategy anaylzer
+ "version"
+ "schemify"   ; degenerate back end
+
+ ;; Common Lisp back end
+ "emit"       ; code emission utilities
+ "generate"   ; CL code generator
+ "builtin"    ; CL info about scheme built-ins
+ "translate"  ; phase coordination and file transducer
+ "reify"      ; miscellaneous
+ )
